@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Minidoku</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- <script src="../_scripts/vector.js"></script>
+    <script src="../_scripts/inputs.js"></script> -->
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <p id="level">1</p>
+    <!-- The parent container avoids resizing -->
+    <div id="panelContainer" style="transform: translate(-50%, -50%)">
+      <div id="panelSubcontainer">
+        <div id="gamePanel">
+          <div class="gameInnerPanel">
+            <button class="gridTile" data-row="0" data-column="0"></button>
+            <button class="gridTile" data-row="1" data-column="0"></button>
+            <button class="gridTile" data-row="2" data-column="0"></button>
+            <button class="gridTile" data-row="3" data-column="0"></button>
+          </div>
+          <div class="gameInnerPanel">
+            <button class="gridTile" data-row="0" data-column="1"></button>
+            <button class="gridTile" data-row="1" data-column="1"></button>
+            <button class="gridTile" data-row="2" data-column="1"></button>
+            <button class="gridTile" data-row="3" data-column="1"></button>
+          </div>
+          <div class="gameInnerPanel">
+            <button class="gridTile" data-row="0" data-column="2"></button>
+            <button class="gridTile" data-row="1" data-column="2"></button>
+            <button class="gridTile" data-row="2" data-column="2"></button>
+            <button class="gridTile" data-row="3" data-column="2"></button>
+          </div>
+          <div class="gameInnerPanel">
+            <button class="gridTile" data-row="0" data-column="3"></button>
+            <button class="gridTile" data-row="1" data-column="3"></button>
+            <button class="gridTile" data-row="2" data-column="3"></button>
+            <button class="gridTile" data-row="3" data-column="3"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
