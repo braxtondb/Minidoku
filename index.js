@@ -30,7 +30,7 @@ let level1 = {
     ]
 }
 
-let lvl = 4;
+let lvl = 0;
 
 function checkWin() {
     let gamePanel = document.getElementById('gamePanel');
